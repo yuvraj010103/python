@@ -15,7 +15,7 @@ jobs:
 
     - name: Test
       run: |
-        cd tests
+        cd testcase
         python -m pytest test_basic.py
         
        
